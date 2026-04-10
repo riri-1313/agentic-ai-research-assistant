@@ -1,4 +1,4 @@
-def detect_gaps(summaries):
+ def detect_gaps(summaries):
     gap_keywords = ["lack", "future work", "not explored", "limitations", "challenge", "issue"]
     gaps = []
     for s in summaries:
