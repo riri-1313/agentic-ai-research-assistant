@@ -21,7 +21,7 @@ for p in papers:
 print("\nSTEP 3: Detecting research gaps...")
 gaps = detect_gaps(summaries)
 for g in gaps:
-    print("- ", g)
+     print("- ", g)
 
 print("\nSTEP 4: Generating draft...")
 draft = generate_draft(topic, summaries, gaps)
