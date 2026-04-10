@@ -3,3 +3,4 @@ def summarize_text(text):
     summary = ". ".join(sentences[:3])
     return summary + "."
 
+ 
