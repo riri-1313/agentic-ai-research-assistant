@@ -1,4 +1,4 @@
-def generate_draft(topic, summaries, gaps):
+ def generate_draft(topic, summaries, gaps):
     draft = f"Research Topic: {topic}\n\n"
     draft += "Summary of Existing Work:\n"
     for s in summaries:
